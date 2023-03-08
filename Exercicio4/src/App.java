@@ -12,14 +12,14 @@ public class App {
         double comissao = 0.0f;
         double porcentagem = 0.15;
         
-        Scanner leitor = new Scanner(System.in);
-
-        System.out.println("Informe o nome do vendedor: ");
-        nome = leitor.nextLine();
-        System.out.println("Informe o salário do vendedor: ");
-        salario = leitor.nextFloat();
-        System.out.println("Informe o total de vendas do vendedor: ");
-        totalVendas = leitor.nextFloat();
+        try (Scanner leitor = new Scanner(System.in)) {
+            System.out.println("Informe o nome do vendedor: ");
+            nome = leitor.nextLine();
+            System.out.println("Informe o salário do vendedor: ");
+            salario = leitor.nextFloat();
+            System.out.println("Informe o total de vendas do vendedor: ");
+            totalVendas = leitor.nextFloat();
+        }
 
         System.out.println("NOME: " + nome);
         System.out.println("SALARIO: R$" + salario);

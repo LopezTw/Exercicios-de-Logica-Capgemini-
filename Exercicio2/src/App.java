@@ -9,12 +9,12 @@ public class App {
         float num2 = 0;
         float resultado = 0;
 
-        Scanner leitura = new Scanner(System.in);
-
-        System.out.println("Digite o primeiro valor: ");
-        num1 = leitura.nextFloat();
-        System.out.println("Digite o segundo valor: ");
-        num2 = leitura.nextFloat();
+        try (Scanner leitura = new Scanner(System.in)) {
+            System.out.println("Digite o primeiro valor: ");
+            num1 = leitura.nextFloat();
+            System.out.println("Digite o segundo valor: ");
+            num2 = leitura.nextFloat();
+        }
 
         System.out.println("O RESULTADO DA CONTA " + num1 + " + " + num2 + ": ");
         resultado = num1 + num2;
