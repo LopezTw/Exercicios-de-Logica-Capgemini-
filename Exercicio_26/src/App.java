@@ -26,5 +26,7 @@ public class App {
         } else {            
              System.out.println("NÚMERO INVÁLIDO ! - Insira um numero de 1 a 5 !");                       
         }
+
+        leitor.close();
     }
 }
