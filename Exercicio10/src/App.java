@@ -1,6 +1,8 @@
 //A Loja Mamão com Açúcar está vendendo seus produtos em5(cinco)prestações sem juros. Faça um 
 //aloritmo que receba um valor de uma compra e mostre o valor das prestações;
 
+// CALCULAR PRESTAÇÕES
+
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
