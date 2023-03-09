@@ -5,14 +5,11 @@ public class App {
         float reais = 0.0f;
         float dolar = 0.0f;
         float cotacao = 0.0f;
-        //float qtdDinheiro = 0.0f;
+        
 
         char continuar = 's';
 
-            Scanner leitura = new Scanner(System.in);
-
-            //System.out.println("Insira a quantidade de DOLAR que deseja converter pra BRL: ");
-
+        try (Scanner leitura = new Scanner(System.in)) {
             while(continuar == 's' || continuar == 'S'){
                 System.out.println("Insira a quantidade de DOLAR que deseja converter pra BRL: ");
                 dolar = leitura.nextFloat();
@@ -30,9 +27,6 @@ public class App {
 
 
             }
-
-    
-
-
+        }      
     }
 }
