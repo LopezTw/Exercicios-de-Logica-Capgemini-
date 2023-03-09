@@ -21,7 +21,9 @@ public class App {
 
         System.out.println("O preço de venda do produto é: R$" + precoVenda);
 
-        //leitor.close();
+        leitor.close();
 
+        // Posso adicionar uma estrutura de repetição WHILE, pra fazer essas contas inúmeras vezes.
+        
     }
 }
