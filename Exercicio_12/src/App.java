@@ -33,8 +33,5 @@ public class App {
         
         leitor.close();
 
-
-
-
     }
 }
