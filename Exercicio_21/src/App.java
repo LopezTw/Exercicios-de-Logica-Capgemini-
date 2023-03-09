@@ -31,6 +31,8 @@ public class App {
             } else {
                 sexo = "Masculino";
             } 
+            // We can add more genders without problem and optimize this code about wrong write
+
 
             System.out.println("Informe a idade: ");
             idade = leitor.nextInt();
