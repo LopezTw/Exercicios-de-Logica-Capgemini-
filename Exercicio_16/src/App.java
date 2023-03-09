@@ -15,7 +15,7 @@ public class App {
 
         System.out.println("Informe o nome do aluno: ");
         nomeAluno = leitor.nextLine();
-        System.out.println("Informe as notas do aluno" + nomeAluno);
+        System.out.println("Informe as notas do aluno " + nomeAluno);
         System.out.println("Primeira Nota: ");
         nota1 = leitor.nextFloat();
         System.out.println("Segunda Nota: ");
@@ -35,6 +35,6 @@ public class App {
         
         System.out.println("A média do aluno " + nomeAluno + " é: " + media);
 
-
+        leitor.close();
     }   
 }
