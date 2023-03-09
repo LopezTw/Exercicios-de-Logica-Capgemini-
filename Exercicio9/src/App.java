@@ -11,10 +11,10 @@ public class App {
         double deposito = 0;
         double rendimento = 0;
 
-        Scanner leitor = new Scanner(System.in);
-
-        System.out.println("Informe o valor do deposito");
-        deposito = leitor.nextDouble();
+        try (Scanner leitor = new Scanner(System.in)) {
+            System.out.println("Informe o valor do deposito");
+            deposito = leitor.nextDouble();
+        }
 
         rendimento = deposito * juros;
 

@@ -22,11 +22,6 @@ public class App {
             System.out.println("Deseja fazer mais uma consulta? S/N");
             continuar = leitor.next().charAt(0);
 
-
         }
-
     }    
-
-
-
 }
