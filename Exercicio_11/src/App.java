@@ -17,7 +17,7 @@ public class App {
         System.out.print("Digite o percentual de acréscimo para o preço de venda (em %): ");
         percentual = leitor.nextFloat();
 
-        // Essa parte da expressão adiciona o valor decimal do percentual ao valor 1..
+        // Essa parte da expressão adiciona o valor decimal do percentual ao valor 1.
         precoVenda = precoCusto * (1 + (percentual / 100)); 
 
         System.out.println("O preço de venda do produto é: R$" + precoVenda);
