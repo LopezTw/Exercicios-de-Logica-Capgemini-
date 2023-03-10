@@ -22,6 +22,6 @@ public class App {
         } else {
             System.out.println("Os números inseridos são Diferentes e " + num2 + " é maior que " + num1);
         }
-
+        leitor.close();
     }
 }
